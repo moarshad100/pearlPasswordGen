@@ -25,6 +25,10 @@ function generatePassword() {
     var length = window.prompt("Please, Enter a number between 8 and 128");
   }
 
+
+  passwordCreate = "",
+    retPassword = "";
+
   // Confirm to include lowercase,uppercase,numbers or special characters
   do {
     var isLowercase = window.confirm("Click OK to confirm for including lowercase ");
@@ -36,9 +40,14 @@ function generatePassword() {
     var isSpcchar = window.confirm("Click OK to confirm for including special characters ");
     if (isSpcchar) { passwordCreate += special_char; }
   }
-
   // Atleast one character type should be included 
   while ((!isLowercase) && (!isUppercase) && (!isSet_number) && (!isSpcchar))
 
+  const n = passwordCreate.length;
+  // Password is generated with the selected criteria
+  for (var i = 0; i < length; ++i) {
 
+    retPassword += passwordCreate.charAt(Math.floor(Math.random() * n));
+  }
+  return retPassword;
 }
