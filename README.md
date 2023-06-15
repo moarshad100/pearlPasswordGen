@@ -14,6 +14,7 @@ This weeks challenge provided me with a starter code and I should modify the cod
 <li>create a for loop to genrate the random password </li>
 
 ## URL
-
-URL of the deployed application : https://moarshad100.github.io/pearlPasswordGen/
-URL of th Github repository : https://github.com/moarshad100/pearlPasswordGen
+<li>
+<ul>URL of the deployed application : https://moarshad100.github.io/pearlPasswordGen/</ul>
+<ul>URL of th Github repository : https://github.com/moarshad100/pearlPasswordGen</ul>
+</li>
