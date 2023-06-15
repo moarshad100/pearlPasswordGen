@@ -15,3 +15,5 @@ This weeks challenge provided me with a starter code and I should modify the cod
 
 ## URL
 
+URL of the deployed application : https://moarshad100.github.io/pearlPasswordGen/
+URL of th Github repository : https://github.com/moarshad100/pearlPasswordGen
